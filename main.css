@@ -1,0 +1,83 @@
+
+body 
+{
+    background: linear-gradient(335deg, rgb(116, 112, 111) 0%, rgb(197, 195, 190) 100%);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.background 
+{
+    z-index: -1;
+    width: 100%;
+    position: fixed;
+    margin-top: -100px;
+}
+
+.navbar-nav 
+{
+    margin-left: auto;
+}
+
+.navbar-brand 
+{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 2%;
+}
+
+.nav-link
+{
+    color: white;
+}
+
+.about-cai 
+{
+    color: black;
+    font-weight: bold;
+    text-shadow: 1px 1px 2px rgb(63, 61, 61);
+    width: 80%;
+    margin: 100px auto 100px auto;
+    text-align: center;
+    line-height: 2;
+    padding-top: 2px;
+  }
+  
+  .artContainer {
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .artText {
+    width: 70%;
+  }
+  
+  .imgContainer {
+    border: solid 1px lightgrey;
+    height: 300px;
+    width: 300px;
+    object-fit: cover;
+    margin: 0 20px;
+  }
+  
+  .imgContainer img {
+    height: 300px;
+    width: 300px;
+  }
+  
+
+.copyright 
+  {
+    display: flex;
+    line-height: 40px;
+    font-size: 0.7em;
+    justify-content: center;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
